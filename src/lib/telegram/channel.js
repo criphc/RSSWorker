@@ -11,9 +11,6 @@ let deal = async (ctx) => {
 	let tgme_widget_message_dates = [];
 	let src_links = [];
 	let last_tag = '';
-	if (link !== 'https://t.me/s/hicriphc' || link !== 'https://t.me/s/libcriphc' || link !== 'https://t.me/s/cccrispy') {
-		return 1;
-	}
 	let new_res = new HTMLRewriter()
 		.on('head > title', {
 			text(text) {
