@@ -2,6 +2,9 @@ import { renderRss2 } from '../../utils/util';
 
 let deal = async (ctx) => {
 	const { username } = ctx.req.param();
+	if (username !== 'hicriphc' && username !== 'libcriphc' && username !== 'cccrispy') {
+		return 1;
+	}
 	let res = await fetch(`https://t.me/s/${username}`);
 	let title = '';
 	let link = `https://t.me/s/${username}`;
