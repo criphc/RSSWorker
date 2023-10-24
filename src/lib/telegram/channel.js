@@ -89,7 +89,7 @@ let deal = async (ctx) => {
 };
 
 let setup = (route) => {
-	route.get('/:username', deal);
+	route.get('/telegram/channel/:username', deal);
 };
 
 export default { setup };
