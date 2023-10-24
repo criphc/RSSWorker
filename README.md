@@ -1,3 +1,7 @@
+This is a fork of [yllhwa/RSSWorker](https://github.com/yllhwa/RSSWorker), deployed on rss.criphc[dot]com, only allow route for /telegram/hicriphc, /telegram/libcriphc and /telegram/ccccrispy.
+
+-----
+
 # RSSWorker
 
 RSSWorker 是一个轻量级的 RSS 订阅工具，可以部署在 Cloudflare Worker 上。
@@ -13,7 +17,7 @@ RSSWorker 是一个轻量级的 RSS 订阅工具，可以部署在 Cloudflare Wo
 
 ## 部署
 
-[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/yllhwa/RSSWorker)
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=)
 
 ## 开发
 
