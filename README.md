@@ -1,4 +1,4 @@
-This is a fork of [yllhwa/RSSWorker](https://github.com/yllhwa/RSSWorker), deployed on rss.criphc[dot]com, only allow route for /telegram/hicriphc, /telegram/libcriphc and /telegram/ccccrispy.
+This is a fork of [yllhwa/RSSWorker](https://github.com/yllhwa/RSSWorker), deployed on rss.criphc[dot]com, only allow route for /feed/hicriphc, /feed/libcriphc and /feed/ccccrispy, working as a mirror to my telegram channels.
 
 -----
 
