@@ -10,7 +10,7 @@ import route from './route';
 
 const app = new Hono();
 
-app.route('/rss', route);
+app.route('/feed', route);
 app.get('/', (ctx) => {
 	return ctx.html(indexHtml);
 });
